@@ -7,5 +7,5 @@ var By = $driver.By;
 $browser.manage();
 
 $browser.get('https://www.google.com').then(function(){
-  return $browser.wait(100);
+  return $browser.quit();
 })
